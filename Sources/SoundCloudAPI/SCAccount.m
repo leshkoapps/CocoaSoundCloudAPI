@@ -48,4 +48,14 @@ NSString * const SCAccountDidFailToGetAccessToken = @"SCAccountDidFailToGetAcces
     return self.oauthAccount.identifier;
 }
 
+- (NSString *)oauthToken;
+{
+    return self.oauthAccount.accessToken.accessToken;
+}
+
+- (NSString *)clientId;
+{
+    return self.oauthAccount.oauthClient.clientId;
+}
+
 @end
