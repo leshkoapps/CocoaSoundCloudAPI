@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9429A5E0122659D500D31807 /* SCAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9429A5D2122659D500D31807 /* SCAPI.h */; settings = {ATTRIBUTES = (); }; };
+		9429A5E0122659D500D31807 /* SCAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9429A5D2122659D500D31807 /* SCAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94535FA7123FB33500BD668A /* SCAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9429A5D2122659D500D31807 /* SCAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94535FAE123FB33500BD668A /* SoundCloudAPI_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SoundCloudAPI_Prefix.pch */; };
 		945481861248D94900E6BD3D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945481851248D94900E6BD3D /* AudioToolbox.framework */; };
@@ -17,15 +17,15 @@
 		AA747D9F0F9514B9006C5449 /* SoundCloudAPI_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SoundCloudAPI_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		F60811E313D050180040EC66 /* SCSoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811E113D050180040EC66 /* SCSoundCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F60811E413D050180040EC66 /* SCSoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811E113D050180040EC66 /* SCSoundCloud.h */; };
+		F60811E413D050180040EC66 /* SCSoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811E113D050180040EC66 /* SCSoundCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F60811E513D050180040EC66 /* SCSoundCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = F60811E213D050180040EC66 /* SCSoundCloud.m */; };
 		F60811E613D050180040EC66 /* SCSoundCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = F60811E213D050180040EC66 /* SCSoundCloud.m */; };
 		F60811E913D051420040EC66 /* SCAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811E713D051420040EC66 /* SCAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F60811EA13D051420040EC66 /* SCAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811E713D051420040EC66 /* SCAccount.h */; };
+		F60811EA13D051420040EC66 /* SCAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811E713D051420040EC66 /* SCAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F60811EB13D051420040EC66 /* SCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F60811E813D051420040EC66 /* SCAccount.m */; };
 		F60811EC13D051420040EC66 /* SCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F60811E813D051420040EC66 /* SCAccount.m */; };
 		F60811EF13D051840040EC66 /* SCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811ED13D051840040EC66 /* SCRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F60811F013D051840040EC66 /* SCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811ED13D051840040EC66 /* SCRequest.h */; };
+		F60811F013D051840040EC66 /* SCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F60811ED13D051840040EC66 /* SCRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F60811F113D051840040EC66 /* SCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F60811EE13D051840040EC66 /* SCRequest.m */; };
 		F60811F213D051840040EC66 /* SCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F60811EE13D051840040EC66 /* SCRequest.m */; };
 		F62E0CBA148FAF6400BE8F14 /* OAuth2Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F79A5C13A15371002555F0 /* OAuth2Client.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -35,7 +35,7 @@
 		F6525B8013D5B34A00ACAE8F /* SCSoundCloud+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = F6525B7C13D5B34A00ACAE8F /* SCSoundCloud+Private.m */; };
 		F6622B6713D84A2B0057ADD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6622B6613D84A2B0057ADD0 /* Cocoa.framework */; };
 		F6E88D2513D41F8A008B9CD5 /* SCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E88D2313D41F8A008B9CD5 /* SCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6E88D2613D41F8A008B9CD5 /* SCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E88D2313D41F8A008B9CD5 /* SCConstants.h */; };
+		F6E88D2613D41F8A008B9CD5 /* SCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E88D2313D41F8A008B9CD5 /* SCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6E88D2713D41F8A008B9CD5 /* SCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E88D2413D41F8A008B9CD5 /* SCConstants.m */; };
 		F6E88D2813D41F8A008B9CD5 /* SCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E88D2413D41F8A008B9CD5 /* SCConstants.m */; };
 		F6E88D2C13D43A74008B9CD5 /* SCAccount+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E88D2A13D43A73008B9CD5 /* SCAccount+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -207,12 +207,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* SoundCloudAPI_Prefix.pch in Headers */,
 				9429A5E0122659D500D31807 /* SCAPI.h in Headers */,
-				F60811E413D050180040EC66 /* SCSoundCloud.h in Headers */,
-				F60811EA13D051420040EC66 /* SCAccount.h in Headers */,
 				F60811F013D051840040EC66 /* SCRequest.h in Headers */,
 				F6E88D2613D41F8A008B9CD5 /* SCConstants.h in Headers */,
+				F60811E413D050180040EC66 /* SCSoundCloud.h in Headers */,
+				F60811EA13D051420040EC66 /* SCAccount.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* SoundCloudAPI_Prefix.pch in Headers */,
 				F6E88D2D13D43A74008B9CD5 /* SCAccount+Private.h in Headers */,
 				F6525B7E13D5B34A00ACAE8F /* SCSoundCloud+Private.h in Headers */,
 			);
