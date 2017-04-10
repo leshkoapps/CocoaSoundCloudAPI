@@ -343,7 +343,7 @@
 				PRODUCT_NAME = SoundCloudAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../**";
+				USER_HEADER_SEARCH_PATHS = "../OAuth2Client/Sources/**";
 			};
 			name = Debug;
 		};
@@ -366,7 +366,7 @@
 				PRODUCT_NAME = SoundCloudAPI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../**";
+				USER_HEADER_SEARCH_PATHS = "../OAuth2Client/Sources/**";
 			};
 			name = Release;
 		};
