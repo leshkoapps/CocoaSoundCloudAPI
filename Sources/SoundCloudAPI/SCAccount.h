@@ -37,6 +37,8 @@ extern NSString * const SCAccountDidFailToGetAccessToken;
 
 @property (nonatomic, readonly) NSString *oauthToken;
 
+@property (nonatomic, readonly) NSString *tokenType;
+
 @property (nonatomic, readonly) NSString *clientId;
 
 
