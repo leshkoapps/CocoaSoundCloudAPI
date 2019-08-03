@@ -1,0 +1,25 @@
+{
+  "name": "CocoaSoundCloudAPI",
+  "version": "2.0.0",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "summary": "So you want to share your tracks in your iOS Application to SoundCloud? With this project you only need a few lines of code for doing that. The SoundCloud API supports iOS from Version 4.0 and MacOS X from Leopard (10.6). It uses SoundClouds OAuth2 API and henceforth includes the NXOAuth2Client project.",
+  "homepage": "https://github.com/soundcloud/CocoaSoundCloudAPI",
+  "authors": {
+    "SoundCloud": "https://soundcloud.com"
+  },
+  "source": {
+    "git": "https://github.com/leshkoapps/CocoaSoundCloudAPI.git",
+    "tag": "2.0.0"
+  },
+  "source_files": "*.{h,m}", "Sources/*.{h,m}", "Sources/SoundCloudAPI/*.{h,m}",
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation"
+  ],
+  "license": {
+    "type": "Apache 2.0",
+    "text": "Copyright SoundCloud. All rights reserved."
+  }
+}
