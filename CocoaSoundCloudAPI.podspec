@@ -1,5 +1,5 @@
 {
-  "name": "CocoaSoundCloudAPIDeprecated",
+  "name": "CocoaSoundCloudAPI",
   "version": "1.0.2",
   "platforms": {
     "ios": "9.0"
