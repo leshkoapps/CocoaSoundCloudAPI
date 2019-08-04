@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
 
   s.source_files = '*.{h,m}', 'Sources/*.{h,m}', 'Sources/SoundCloudAPI/*.{h,m}'
   s.framework    = 'Foundation'
-  s.dependency 'NXOAuth2Client', :git => 'https://github.com/leshkoapps/OAuth2Client.git'
+  s.dependency 'NXOAuth2Client'
 end
