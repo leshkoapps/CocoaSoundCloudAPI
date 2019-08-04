@@ -74,7 +74,7 @@ sendingProgressHandler:(SCRequestSendingProgressHandler)aProgressHandler
     request.account = anAccount.oauthAccount;
     [request performRequestWithSendingProgressHandler:aProgressHandler
                                       responseHandler:aResponseHandler];
-    return [request autorelease];
+    return request;
 }
 
 + (void)cancelRequest:(id)request;
@@ -135,7 +135,7 @@ sendingProgressHandler:(SCRequestSendingProgressHandler)aProgressHandler
 - (SCAccount *)account;
 {
     if (self.oauthRequest.account) {
-        return [[[SCAccount alloc] initWithOAuthAccount:self.oauthRequest.account] autorelease];
+        return [[SCAccount alloc] initWithOAuthAccount:self.oauthRequest.account];
     } else {
         return nil;
     }

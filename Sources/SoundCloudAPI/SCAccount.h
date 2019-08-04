@@ -33,13 +33,13 @@ extern NSString * const SCAccountDidFailToGetAccessToken;
 
 #pragma mark Accessors
 
-@property (nonatomic, readonly) NSString *identifier;
+@property (nonatomic, readonly, strong) NSString *identifier;
 
-@property (nonatomic, readonly) NSString *oauthToken;
+@property (nonatomic, readonly, strong) NSString *oauthToken;
 
-@property (nonatomic, readonly) NSString *tokenType;
+@property (nonatomic, readonly, strong) NSString *tokenType;
 
-@property (nonatomic, readonly) NSString *clientId;
+@property (nonatomic, readonly, strong) NSString *clientId;
 
 
 @end

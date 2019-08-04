@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { 'SoundCloud' => 'https://soundcloud.com' }
   s.source       = { :git => 'https://github.com/leshkoapps/CocoaSoundCloudAPI.git', :tag => s.version.to_s }
 
-  s.requires_arc = false
+  s.requires_arc = true
   s.platform     = :ios, '9.0'
 
   s.source_files = '*.{h,m}', 'Sources/*.{h,m}', 'Sources/SoundCloudAPI/*.{h,m}'
